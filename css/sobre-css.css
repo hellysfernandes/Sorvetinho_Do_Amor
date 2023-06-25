@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 18%;
+    padding: 1.50% 0;
+    background-color: #f96ba3;
+}
+
+.logo{
+    width: 50%;
+    margin-top: -1.3%;
+}
+
+.menu{
+    padding-top: 2.50% ;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 4%;
+    margin-left: 15PX;
+}
+
+.p1:hover{
+    color: #69c0c8;
+    transition: 311ms;
+}
+#i1{
+    font-size:30px;
+    font-family:serif ,Arial, Helvetica, sans-serif;
+    color: #69c0c8;
+}
+
+#titu{
+    position: relative;
+    margin-left: 14.5%;
+    margin-top: -11.5%;
+}
+
+/* primeira div sobre nos*/
+.d3{
+    width: 100%; /* largura*/
+    background-image: url(../img/img\ todos2.jpeg); /* inserir imagem*/
+    background-position: center; /* foto centralizada */
+    background-repeat: no-repeat; /* foto nao se repete */
+    background-size: 80%; /* o tanto que ocupa a imagem */
+    border-style:solid; /* borda da div */
+    height: 650%; /* altura da div */
+    border-color: rgb(255, 255, 255); /* cor da borda da div*/
+    position: relative;
+    margin-top: 5%;
+    margin-left: -4%;
+    background-size: cover;
+}
+    
+/* mine div, uma parte do corpo main */
+
+#m1{
+    position:relative;
+    background-color: #f6f886; /* fundo do main*/
+    margin: auto; /* forma de organizar o texto*/
+    width: 500px; /* largura do main*/
+    padding: 20px;/* distancia do conteudo da borda*/
+    border: 5px; /* largura da borda*/
+    border-color:#69c0c8;/* cor da borda*/
+    border-radius:30px; /* borda arredondada*/
+    border-style:dotted;/* estilo de borda*/
+    margin-top: 2%;
+}
+
+/* titulo do main*/
+#h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* fontes usadas*/
+    color: #c667fd; /* cor do h1*/
+}
+
+/* sombra da logo (borda)*/
+.m2{
+    border: 90px; /* espeçura da borda*/
+    border-color:#c667fd; /* cor da borda*/
+    border-style: solid; /* estilo da borda*/
+    width: 50px;/* largura  */
+    height:250px; /* altura  */
+    border-radius: 100px; /* borda arredondada*/
+    position: absolute; /* posição */
+    left: 85%; /* indo pra esquerda*/
+    top: 118%;/* indo para baixo*/
+}
+
+/* foto da logo / sombra */
+#img5{ 
+    width: 250px; /* largura da imagem*/
+    height:250px; /* altura da imagem*/
+    border-radius: 100px; /* borda arredondada*/
+    position: absolute; /* posiçao da imagem */
+    left: 80%; /* indo pra esquerda*/
+    top: 120%;/* indo para baixo */ 
+}
+
+/* texto do meio*/
+#m3{
+    text-align: left; /*  o texto vai da esquerda pra direita*/
+    width: 800px;/* largura do texto */
+    position: absolute;/* posiçao do texto*/
+    right: 25%; /* indo pra direita*/
+    top: 110%; /* indo para baixo*/
+}
+
+/* cor do titulo*/
+#h2{
+    color: #c667fd; /* cor do titulo h1*/
+}
+
+/* imagem da helania bnt*/
+#img8{
+    border: 3px; /* tamanho da borda*/
+    border-color:#f96ba3; /* cor da borda*/
+    border-style: solid; /* estilo da borda*/
+    width: 150px;/*  largura da imagem*/
+    height:200px;/* altura da imagem*/
+    position: absolute;/* pisiçao da imagem*/
+    left:20em;/* indo pra direita*/
+    top: 183%;/* indo para baixo*/
+}
+
+/* texto do titulo empreendedore e funcionarios*/
+#m4{
+    text-align: left;/* texto vai da direita para a esquerda*/
+    width: 700px;/* largura do texto*/
+    height: 150px;/* altura do texto*/
+    position: absolute; /* posiçao do texto*/
+    right: 18em; /* indo para a esquerda */
+    top: 160%;/* indo para baixo*/
+    color: #c667fd;/* cor do titulo h1*/
+}
+
+/* texto da helania*/
+#m5{
+    text-align: left; /* texto vai da direita pra esquerda*/
+    width: 500px;/* largura do texto*/
+    height: 200px; /* altura do texto*/
+    border-radius: 100px; /* borda arredondada*/
+    position: absolute;/* posiçao do texto */
+    left:33em;/* indo para direita*/
+    top: 180%;/* indo para baixo*/
+    color: #000000; /* cor do texto*/
+}
+
+/* cor do fundo da div da helania*/
+#d4{
+   
+    border: 10px; /* largura da borda */
+    border-style: double; /* estilo da borda*/
+    border-color:#f96ba3; /* cor da borda*/
+    top: 175%; /* indo para baixo*/
+    width: 900px; /* largura da div*/
+    height: 300px;/* altura da div*/
+    right: 10em;/* indo para direita*/
+    position: absolute; /* posiçao da div*/
+    background-color:#f6f886; /* cor do fundo da div*/
+    border-radius: 20px;/* borda arredondada */
+    left:15.6em;
+}
+
+/*div yoranna*/
+
+.div1{
+    background-color: #a486f8; /*cor do fundo*/
+    border: 10px; /*largura da borda*/
+    border-style: double; /*estilo da borda*/
+    border-color: #d80d5e; /*cor da borda*/
+    position: absolute; /*posiçao da div*/
+    top:230%; /*indo para baixo*/
+    width:900px;/*largura da div*/
+    height: 300px;/*altura da div*/
+    border-radius:20px ;/*borda arredondada*/
+    margin-left: 15.6em;/*distancia do canto da tela pra div*/
+}
+
+/*obs estou usando margin pois a div estava absolute dai quando eu mexo, ela não aceita o padding, só o margin...*/
+
+/*paragrafo yoranna*/
+#p1{
+ left: 250px;   /*afastar paragrafo para a direita*/
+ height: 20px;    /*altura do paragrafo*/
+ position: absolute; /*posiçao do texto*/
+ right: 30%; /*afasta o paragrafo pra direita*/
+ top: 25%;  /*empura para baixo*/
+  
+}
+
+/*foto yoranna*/
+#ftrana{
+    position: absolute; /*posiçao da foto*/
+    margin-left: 60px; /*distancia do canto da tela pra foto*/
+    margin-top: 40px;/*distancia do topo da tela pra foto*/
+    border: 3px; /*largura da borda*/
+    border-style: solid; /*estilo da borda*/
+    border-color: #d80d5e; /*cor da borda da foto*/
+
+}
+
+/*div  da Giovanna*/
+
+.div2 {
+    background-color: rgb(253, 196, 206);/*cor do fundo*/
+    border: 10px; /*espessura da borda*/
+    border-style: double; /*estilo da borda*/
+    border-color: #8a0a3d;/*cor da borda*/
+    border-radius:20px ; /*arredonda a borda*/
+    position: absolute; /*posiçao da borda*/
+    top:284%; /*empura para baixo*/
+    width: 900px;/*largura da div*/
+    height: 300px;/*altura da div*/
+    margin-left:15.6em; /*distancia do canto da tela pra div*/
+}
+
+/*foto da giovana*/
+#ftgi{
+    position: relative; /*posiçao da foto*/
+    left: 60px; /*afasta para a esquerda*/
+    top: 40px;  /*empura para baixo*/
+    border: 3px;/*largura da borda*/
+    border-style: solid;  /*estilo da borda*/
+    border-color:#8a0a3d ;  /*cor da borda da foto*/
+}
+
+/*paragrafo da giovana*/
+#p2{
+    position: absolute; /*posiçao do paragrafo*/
+    padding-left: 270px; /* distancia da div pro paragrafo*/
+    padding-top: 100px;/*distancia do topo da div pro paragrafo*/
+}
+
+/*div do italo*/
+
+.div3{
+background-color: #0090f0;/*cor do fundo*/
+border:10px; /*espesura da borda*/
+border-radius: 20px; /*borda arredondada*/
+border-color: #000000; /*cor da borda*/
+border-style: double; /*borda arredondada*/
+width: 900px;/*largura da div*/
+height: 300px;/*altura da div*/
+position: absolute;/*posiçao da div*/
+top: 338%;/*empura para*/
+margin-left:15.6em;/*distancia do canto da tela pra div*/
+}
+
+/*paragrafo do italo*/
+#p3{
+    position: absolute; /*possiçao do paragrafo*/
+    padding-left: 280px;/*distancia do canto da div pro paragrafo*/
+    padding-top: 100px;/*distancia do canto da div pro paragrafo*/
+}
+
+/*foto do italo*/
+#ftit{
+ position: absolute; /*posiçao da foto*/
+ margin-left: 60px;  /*distancia da foto pro canto da div*/
+ margin-top: 40px;/*distancia do canto da foto pro canto da dvi*/
+ border:3px; /*espesura da borda*/
+ border-style:solid; /*estilo da borda*/
+ border-color: rgb(0, 0, 0);/*cor da borda*/
+}
+
+/*div hellys*/
+
+.div4{
+    background-color: #6bb3c0;/*cor do fundo*/
+    border: 10px;/*espesura da borda*/
+    border-radius: 20px; /*borda arredondada*/
+    border-style: double;/*estilo da borda*/
+    border-color:rgba(255, 81, 0, 0.61);/*cor da borda*/
+    width: 900px;/*largura da div*/
+    height: 300px;/*altura da div*/
+    position: absolute;/*posiçao da div*/
+    top: 395%;/*empura para baixo*/
+    margin-left:15.6em;/*distancia do canto da tela pra div*/
+}
+
+/*paragrafo do hellys*/
+#p4{
+    position:absolute; /*possiçao do paragrafo*/
+    left: 280px;/*distancia do canto da div pro paragrafo*/
+    top: 120px;/*distancia do topo da div pro paragrafo*/
+}
+
+/*foto do hellys*/
+#fthe{
+    position: absolute; /*posiçao da foto*/
+    left: 50px; /*distancia da div pra foto*/
+    border: 3px solid rgba(255, 81, 0, 0.61);/*estilo da borda e cor*/
+    top: 38PX; /*empura para baixo*/
+    height: 14em; /*altura da foto*/
+}
+
+/*div do cauã*/
+
+.div5{
+    background-color: rgb(88, 58, 224);/*cor do fundo*/
+    border: 10px;/*espesura da borda*/
+    border-radius: 20px;/*borda arredondada*/
+    border-style: double;/*estilo da borda*/
+    border-color: #000000;
+    width: 900px;/*largura da div*/
+    height: 300px;/*altura da div*/
+    position: absolute;/*posiçao da div*/
+    top: 450%;/*empura para baixo*/
+    margin-left:15.6em;/*distancia do canto da tela pra div*/
+}
+
+/*paragrafo do cauã*/
+#p5{
+    position: relative;/*possiçao do paragrafo*/
+    left: 280px;/*distancia do canto da div pro paragrafo*/
+    TOP: 140px ;/*distancia do topo da div pro paragrafo*/
+    max-width: 500px; /*largura do paragrafo*/
+}
+
+/*foto do cauã*/
+#ftca{
+    position: absolute;/*posiçao da foto*/
+    top: 42px;/*empura para baixo*/
+    left:50px; /*distancia da div pra foto*/
+    border: 3px; /*espesura da borda*/
+    border-color: #000000;  /*cor da borda*/
+    border-style: solid; /*estilo da borda*/
+    height: 13em;  /*altura da foto*/
+}
